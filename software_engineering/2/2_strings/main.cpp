@@ -14,7 +14,6 @@ int main() {
 
   std::cout << "Type the phone..." << std::endl;
   std::cin >> phone;
-  std::cout << phone << std::endl;
 
   char * lexem = strtok(phone, " ()-");
 
