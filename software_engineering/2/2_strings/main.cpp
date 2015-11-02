@@ -6,7 +6,7 @@
 int main() {
   char *phone;
   int locale = 0;
-  char * string_number;
+  char *string_number;
   long number;
 
   phone = new char;
