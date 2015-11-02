@@ -1,0 +1,4 @@
+g++ main.cpp -o main.o && ./main.o
+200000 | pointer to value1 = 0x7ffca8a5eb48
+140723137932352 | pointer to value2 = 0x7ffca8a5eb50 | address of value1 = 0x7ffca8a5eb48
+	

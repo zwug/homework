@@ -18,7 +18,7 @@ int intToBin(int number) {
   }
 
   std::reverse(binary.begin(), binary.end());
-  std::cout << std::setw(10) << binary << " = " << number << std::endl;
+  std::cout << binary << " = " << number << "|";
 }
 
 int main () {

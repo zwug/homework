@@ -1,0 +1,16 @@
+g++ main.cpp -o main.o && ./main.o
+Base value:
+2
+Exponent value:
+6
+Result value:
+64
+**********************
+
+Base value:
+3
+Exponent value:
+7
+Result value:
+2187
+********************

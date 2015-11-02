@@ -1,0 +1,5 @@
+g++ main.cpp -o main.o && ./main.o
+Type the phone...
+(495)733-11-95
+Locale index = 495 | typeid = i
+Number = 7331195 | typeid = l
