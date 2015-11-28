@@ -11,11 +11,12 @@ int main() {
 
   phone = new char;
   string_number = new char;
+  *string_number = ' ';
 
   std::cout << "Type the phone..." << std::endl;
   std::cin >> phone;
 
-  char * lexem = strtok(phone, " ()-");
+  char *lexem = strtok(phone, " ()-");
 
   while (lexem != NULL) {
     if (locale == 0) {
