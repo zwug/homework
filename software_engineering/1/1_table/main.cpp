@@ -11,8 +11,9 @@ int integerPower(int base, int exponent) {
 }
 
 int binToInt(int binary) {
-  // Делим число на две части: низжий разряд и все остальные.
+  // Понижаем порядок числа (левая часть)
   int leftPart = binary / 10;
+  // Отделяем низжий разряд в правую часть.
   int rightPart = binary % 10;
   int result = 0;
   for(int i = 0; leftPart > 0 || rightPart > 0; i++) {
