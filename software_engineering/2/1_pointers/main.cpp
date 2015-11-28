@@ -5,6 +5,6 @@ int main() {
   value1 = 200000;
   long int *LPtr = &value1;
   std::cout << value1 << " | pointer to value1 = " << LPtr << std::endl;
-  LPtr = &value2;
+  value2 = *LPtr;
   std::cout << value2 << " | pointer to value2 = " << LPtr << " | address of value1 = " << &value1 <<std::endl;
 }
