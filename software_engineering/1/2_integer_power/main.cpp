@@ -11,12 +11,16 @@ int main() {
   int base, exponent;
 
   while(true) {
-    std::cout << "Base value:" << std::endl;
-    std::cin >> base;
-    std::cout << "Exponent value:" << std::endl;
-    std::cin >> exponent;
-    std::cout << "Result value:" << std::endl;
-    std::cout << integerPower(base, exponent) << std::endl;
-    std::cout << "**********************" << std::endl << std::endl;
+    std::cout << "Base value: (typing not numbers will be recognized as quitting)" << std::endl;
+    if(std::cin >> base) {
+      std::cout << "Exponent value:" << std::endl;
+      std::cin >> exponent;
+      std::cout << "Result value:" << std::endl;
+      std::cout << integerPower(base, exponent) << std::endl;
+      std::cout << "**********************" << std::endl << std::endl;
+    } else {
+      std::cout << "Incorrect base value, quitting..." << std::endl << std::endl;
+      break;
+    }
   }
 }
