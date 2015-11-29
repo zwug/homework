@@ -104,6 +104,6 @@ int CreateFormatFile(char * filename){
 }
 
 int main() {
-  char fileName[] = "phone1.dat";
+  char fileName[] = "phone.dat";
   CreateFormatFile(fileName);
 }

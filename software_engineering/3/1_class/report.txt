@@ -1,0 +1,17 @@
+g++ main.cpp -o main.o && ./main.o
+________________________________________________________
+
+Balance for Sevostianov Nikolai after a month = 200500
+Calculated monthly interest = 500
+________________________________________________________
+
+Balance for Emelianov Innokentiy after a month = 300750
+Calculated monthly interest = 750
+________________________________________________________
+
+Balance for Sevostianov Nikolai after a month = 200667
+Calculated monthly interest = 666.667
+________________________________________________________
+
+Balance for Emelianov Innokentiy after a month = 301000
+Calculated monthly interest = 1000

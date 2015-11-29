@@ -1,0 +1,18 @@
+g++ main.cpp -o main.o && ./main.o
+
+***************** Prinitng file ****************
+
+Wuwecebafelevekuzadu ihogJi e yxasymeleno oci izyj4(721)743-1726Tifimureca...
+***************** end of file ****************
+
+Length of the file should be 5720, got 5720
+Correct formatting
+
+***************** Prinitng file ****************
+
+JohnsonAWuwecebafelevekuzadu ihogJi e yxasymeleno oci izyj9(999)999-9999...
+
+***************** end of file ****************
+
+Length of the file should be 5720, got 5720
+Correct formatting
