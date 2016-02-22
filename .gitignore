@@ -1,3 +1,4 @@
 *.o
 octave-workspace
+*.xcodeproj/
 *.dat
